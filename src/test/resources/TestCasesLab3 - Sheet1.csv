@@ -1,0 +1,23 @@
+nights,guestAge,isArkansasResident,hasVeteranDiscount,Expected Result
+0,22,false ,false ,Exception Thrown
+1,22,false ,false ,50.00
+2,22,false ,false ,100.00
+13,22,false ,false ,650.00
+14,22,false ,false ,700.00
+15,22,false ,false ,Exception Thrown
+10,-1,false ,false ,Exception Thrown
+10,0,false ,false ,250.00
+10,1,false ,false ,250.00
+10,11,false ,false ,250.00
+10,12,false ,false ,250.00
+10,13,false ,false ,500.00
+10,14,false ,false ,500.00
+10,63,false ,false ,500.00
+10,64,false ,false ,500.00
+10,65,false ,false ,400.00
+10,66,false ,false ,400.00
+10,10,false ,false ,250.00
+10,70,false ,false ,400.00
+10,22,true ,false ,490.00
+10,22,false ,true ,450.00
+10,22,true ,true ,441.00
